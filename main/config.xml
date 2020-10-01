@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="2">
+ <!--    <readtransactionid value="0"/>					-->
+ <!--    <writetransactionid value="0"/>					-->
+ <!--    <lightstart value="0"/>		по умолчанию 310 Registers					-->
+ <!--    <heatstart value="0"/>		по умолчанию 150 Registers					-->
+ <!--    <heatstart value="5650"/>	для версии EasyHome-B-I-G					-->
+ <!--    <lightstart value="4310"/>	для версии EasyHome-B-I-G					-->
+ <!--    <alertbackground value="blue"/>	-->
+ <!--    <scenesbackground value="red"/>	-->
+ <alertbackground value=""/>
+ <!-- time in ms for PERIODIC ARCHIVE in folder: /Archive/Out_DD_MM_YY.cvs : archivedelay value="10000"-->
+ <archivedelay value="10000"/>
+ <closable value="1"/>
+ <dopset id="1" value="Закат"/>
+ <dopset id="8" value=""/>
+ <dopset id="6" value=""/>
+ <dopset id="7" value=""/>
+ <dopset id="2" value="Рассвет"/>
+ <dopset id="5" value="ИК команда"/>
+ <dopset id="4" value="Снято"/>
+ <dopset id="3" value="Взято"/>
+ <!-- ZOOM SCALING SETTINGS : drawtype value= "normal", "scale", "auto" -->
+ <drawtype value="scale"/>
+ <foneimage value=""/>
+ <fontname value="Arial"/>
+ <!-- <fulllevelimage value="false"/> Отключение отсупа фоновой картинки на название страницы уровня floor и room -->
+ <fulllevelimage value="false"/>
+ <glscene id="1" textB="Сцена - 1"/>
+ <glscene id="6" textB="Сцена - 6"/>
+ <glscene id="2" textB="Сцена - 2"/>
+ <glscene id="4" textB="Сцена - 4"/>
+ <glscene id="3" textB="Сцена - 3"/>
+ <glscene id="8" textB="Сцена - 8"/>
+ <glscene id="5" textB="Сцена - 5"/>
+ <glscene id="7" textB="Сцена - 7"/>
+ <height value="780"/>
+ <!-- <hidenavigationbar value="false"/> Отключение вперхрней статусной строки с часами -->
+ <hidenavigationbar value="false"/>
+ <ingscn id="10" value="Ld-B,Ext-2"/>
+ <ingscn id="16" value="Scene 16"/>
+ <ingscn id="24" value="Scene 24"/>
+ <ingscn id="20" value="Scene 20"/>
+ <ingscn id="19" value="Scene 19"/>
+ <ingscn id="17" value="Scene 17"/>
+ <ingscn id="18" value="Scene 18"/>
+ <ingscn id="22" value="Scene 22"/>
+ <ingscn id="11" value="Ld-On,Ext-3"/>
+ <ingscn id="15" value="Scene 15"/>
+ <ingscn id="4" value="Loads Off"/>
+ <ingscn id="13" value="Scene 13"/>
+ <ingscn id="8" value="Ext 4"/>
+ <ingscn id="5" value="Ext 1"/>
+ <ingscn id="1" value="Loads A"/>
+ <ingscn id="3" value="Loads On"/>
+ <ingscn id="9" value="Ld-A,Ext-1"/>
+ <ingscn id="14" value="Scene 14"/>
+ <ingscn id="2" value="Loads B"/>
+ <ingscn id="23" value="Scene 23"/>
+ <ingscn id="7" value="Ext 3"/>
+ <ingscn id="12" value="Ld-Off,Ext-4"/>
+ <ingscn id="6" value="Ext 2"/>
+ <ingscn id="21" value="Scene 21"/>
+ <ipaddress value="5.128.107.30"/>
+ <ipaddress2 value="192.168.0.4"/>
+ <ipport value="62358"/>
+ <ipport2 value="502"/>
+ <isHideAlertColumns value="false"/>
+ <keyx value="2605"/>
+ <language value="system"/>
+ <medscn id="2" value="Media-2"/>
+ <medscn id="3" value="Media-3"/>
+ <medscn id="4" value="Media-4"/>
+ <medscn id="1" value="Media-1"/>
+ <message maximum="255" minimum="0" id="46" textB="Взято на охрану датчиков:"/>
+ <message maximum="255" minimum="0" id="194" textB="Электроавария N 14"/>
+ <message maximum="255" minimum="0" id="248" textB="Посёлок: Протечка в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="241" textB="Посёлок: Нажата тревожная кнопка в ДОМЕ N"/>
+ <message maximum="50" minimum="-50" id="67" textB="Неисправен датчик Т нар., показания ,С="/>
+ <message maximum="255" minimum="0" id="205" textB="Электроавария N 25"/>
+ <message maximum="255" minimum="0" id="211" textB="Электроавария N 31"/>
+ <message maximum="255" minimum="0" id="200" textB="Электроавария N 20"/>
+ <message maximum="255" minimum="0" id="206" textB="Электроавария N 26"/>
+ <message maximum="255" minimum="0" id="85" textB="Недоступен ИБП"/>
+ <message maximum="255" minimum="0" id="217" textB="Нажат ЗВОНОК N 5"/>
+ <message maximum="255" minimum="0" id="184" textB="Электроавария N 4 "/>
+ <message maximum="255" minimum="0" id="24" textB="HlAlrm-8"/>
+ <message maximum="255" minimum="0" id="136" textB="------ "/>
+ <message maximum="255" minimum="0" id="243" textB="Посёлок: Критическая Элекроавария в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="81" textB="Недоступен Кондиционер N"/>
+ <message maximum="255" minimum="0" id="32" textB="HlAlrm-16"/>
+ <message maximum="255" minimum="0" id="112" textB="Тревога в разделе 3"/>
+ <message maximum="255" minimum="0" id="14" textB="ExAlrm-14 Неисправность ГЕНЕРАТОРА"/>
+ <message maximum="255" minimum="0" id="128" textB="------ "/>
+ <message maximum="255" minimum="0" id="179" textB="Протечка на датчике N 31"/>
+ <message maximum="255" minimum="0" id="118" textB="------ "/>
+ <message maximum="255" minimum="0" id="149" textB="Протечка на датчике N 1 "/>
+ <message maximum="255" minimum="0" id="62" textB="Аварийых Т-возд. всего:"/>
+ <message maximum="255" minimum="0" id="34" textB="Неправильная запись в контроллер N"/>
+ <message maximum="255" minimum="0" id="138" textB="------ "/>
+ <message maximum="255" minimum="0" id="202" textB="Электроавария N 22"/>
+ <message maximum="255" minimum="0" id="144" textB="------ "/>
+ <message maximum="255" minimum="0" id="74" textB="Недоступен ИК шлюз N"/>
+ <message maximum="255" minimum="0" id="119" textB="------ "/>
+ <message maximum="510" minimum="0" id="39" textB="Слабый GSM сигнал! - %"/>
+ <message maximum="255" minimum="0" id="108" textB="Взят на охрану общий раздел"/>
+ <message maximum="255" minimum="0" id="47" textB="Взято на охрану, пользователь:"/>
+ <message maximum="255" minimum="0" id="193" textB="Электроавария N 13"/>
+ <message maximum="255" minimum="0" id="183" textB="Электроавария N 3 "/>
+ <message maximum="255" minimum="0" id="71" textB="Пропали ЭлектроФазы номера"/>
+ <message maximum="255" minimum="0" id="131" textB="------ "/>
+ <message maximum="51" minimum="0" id="66" textB="Аварийная Т пола средняя )5-40(, С="/>
+ <message maximum="255" minimum="0" id="44" textB="Электроавария ID"/>
+ <message maximum="255" minimum="0" id="224" textB="Открыт ЗАМОК N 4"/>
+ <message maximum="255" minimum="0" id="209" textB="Электроавария N 29"/>
+ <message maximum="255" minimum="0" id="105" textB="Взят на охрану раздел 4"/>
+ <message maximum="255" minimum="0" id="143" textB="------ "/>
+ <message maximum="255" minimum="0" id="115" textB="Тревога в разделе 6"/>
+ <message maximum="255" minimum="0" id="101" textB="Взят на охрану раздел Всё"/>
+ <message maximum="255" minimum="0" id="187" textB="Электроавария N 7 "/>
+ <message maximum="255" minimum="0" id="191" textB="Электроавария N 11"/>
+ <message maximum="255" minimum="0" id="9" textB="ExAlrm-9 Сработал датчик ГАЗА"/>
+ <message maximum="255" minimum="0" id="165" textB="Протечка на датчике N 17"/>
+ <message maximum="255" minimum="0" id="87" textB="Тревога Конвектор N"/>
+ <message maximum="255" minimum="0" id="15" textB="ExAlrm-15 "/>
+ <message maximum="255" minimum="0" id="93" textB="Неисправность С2000 радел N"/>
+ <message maximum="255" minimum="0" id="55" textB="Критическая электроавария! Нагрузки отключены!:"/>
+ <message maximum="255" minimum="0" id="242" textB="Посёлок: Электроперегрузка в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="40" textB="Не прогревается помещение N"/>
+ <message maximum="255" minimum="0" id="120" textB="------ "/>
+ <message maximum="255" minimum="0" id="185" textB="Электроавария N 5 "/>
+ <message maximum="255" minimum="0" id="201" textB="Электроавария N 21"/>
+ <message maximum="255" minimum="0" id="22" textB="HlAlrm-6 Неисправен Блок Питания 2"/>
+ <message maximum="255" minimum="0" id="54" textB="Открыт ЗАМОК N:"/>
+ <message maximum="255" minimum="0" id="125" textB="------ "/>
+ <message maximum="255" minimum="0" id="38" textB="--------"/>
+ <message maximum="255" minimum="0" id="5" textB="ExAlrm-5 Тревога дополнительных датчиков безопасности"/>
+ <message maximum="255" minimum="0" id="156" textB="Протечка на датчике N 8 "/>
+ <message maximum="255" minimum="0" id="27" textB="HlAlrm-11"/>
+ <message maximum="255" minimum="0" id="160" textB="Протечка на датчике N 12"/>
+ <message maximum="255" minimum="0" id="219" textB="Нажат ЗВОНОК N 7"/>
+ <message maximum="255" minimum="0" id="123" textB="------ "/>
+ <message maximum="255" minimum="0" id="139" textB="------ "/>
+ <message maximum="255" minimum="0" id="83" textB="--------"/>
+ <message maximum="255" minimum="0" id="80" textB="Тревога Кондиционера N"/>
+ <message maximum="255" minimum="0" id="137" textB="------ "/>
+ <message maximum="255" minimum="0" id="176" textB="Протечка на датчике N 28"/>
+ <message maximum="255" minimum="0" id="234" textB="Посёлок: Какая-то ExtAlarm 1..16 в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="251" textB="Посёлок: --- в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="63" textB="Аварийная T-пола )5-45( в пом.N"/>
+ <message maximum="255" minimum="0" id="147" textB="------ "/>
+ <message maximum="255" minimum="0" id="148" textB="------ "/>
+ <message maximum="255" minimum="0" id="18" textB="HlAlrm-2 Сгорел предохранитель 2"/>
+ <message maximum="255" minimum="0" id="159" textB="Протечка на датчике N 11"/>
+ <message maximum="255" minimum="0" id="158" textB="Протечка на датчике N 10"/>
+ <message maximum="255" minimum="0" id="99" textB="Неисправность Датчика Уровня Топлива N"/>
+ <message maximum="255" minimum="0" id="106" textB="Взят на охрану раздел 5"/>
+ <message maximum="255" minimum="0" id="4" textB="ExAlrm-4 Неисправность дополнительной охранной сигнализации"/>
+ <message maximum="255" minimum="0" id="13" textB="ExAlrm-13 Переполнение дренажа"/>
+ <message maximum="255" minimum="0" id="76" textB="Достигнута Т воздуха после включения климата в пом. N"/>
+ <message maximum="255" minimum="0" id="132" textB="------ "/>
+ <message maximum="255" minimum="0" id="168" textB="Протечка на датчике N 20"/>
+ <message maximum="255" minimum="0" id="100" textB="-------"/>
+ <message maximum="255" minimum="0" id="92" textB="Взят С2000 радел (1-12) N"/>
+ <message maximum="255" minimum="0" id="103" textB="Взят на охрану раздел 2"/>
+ <message maximum="255" minimum="0" id="86" textB="Неисправность nooLite"/>
+ <message maximum="255" minimum="0" id="72" textB="Полностью пропало электропитание !"/>
+ <message maximum="255" minimum="0" id="75" textB="Генератор не запустился 10 минут!!!"/>
+ <message maximum="255" minimum="0" id="199" textB="Электроавария N 19"/>
+ <message maximum="255" minimum="0" id="223" textB="Открыт ЗАМОК N 3"/>
+ <message maximum="255" minimum="0" id="174" textB="Протечка на датчике N 26"/>
+ <message maximum="255" minimum="0" id="220" textB="Нажат ЗВОНОК N 8"/>
+ <message maximum="255" minimum="0" id="140" textB="------ "/>
+ <message maximum="255" minimum="0" id="43" textB="Перегревается ПОЛ пом. N"/>
+ <message maximum="255" minimum="0" id="107" textB="Взят на охрану раздел 6"/>
+ <message maximum="255" minimum="0" id="78" textB="Авария Вентмашины N"/>
+ <message maximum="255" minimum="0" id="102" textB="Взят на охрану раздел 1"/>
+ <message maximum="255" minimum="0" id="70" textB="Превышение порога CO! датчик N"/>
+ <message maximum="255" minimum="0" id="235" textB="Посёлок: Какая-то HlthAlarm 1..16 в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="58" textB="Лицензия ОТСУТСТВУЕТ !!"/>
+ <message maximum="255" minimum="0" id="69" textB="Неисправен датчик CO N"/>
+ <message maximum="255" minimum="0" id="8" textB="ExAlrm-8 Неисправность датчика осадков"/>
+ <message maximum="255" minimum="0" id="203" textB="Электроавария N 23"/>
+ <message maximum="255" minimum="0" id="36" textB="Питание АСУ - включение N"/>
+ <message maximum="255" minimum="0" id="73" textB="Электропитание полностью возобновилось."/>
+ <message maximum="255" minimum="0" id="51" textB="ЭлектроПерегрузка, отключено нагрузок:"/>
+ <message maximum="255" minimum="0" id="21" textB="HlAlrm-5 Сгорел предохранитель 5"/>
+ <message maximum="255" minimum="0" id="57" textB="Подключен ввод ГЕНЕРАТОР:"/>
+ <message maximum="255" minimum="0" id="244" textB="Посёлок: Подключен ГОРОД в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="240" textB="Посёлок: Тревога охраны в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="177" textB="Протечка на датчике N 29"/>
+ <message maximum="255" minimum="0" id="122" textB="------ "/>
+ <message maximum="255" minimum="0" id="155" textB="Протечка на датчике N 7 "/>
+ <message maximum="255" minimum="0" id="175" textB="Протечка на датчике N 27"/>
+ <message maximum="255" minimum="0" id="215" textB="Нажат ЗВОНОК N 3"/>
+ <message maximum="255" minimum="0" id="207" textB="Электроавария N 27"/>
+ <message maximum="255" minimum="0" id="130" textB="------ "/>
+ <message maximum="255" minimum="0" id="113" textB="Тревога в разделе 4"/>
+ <message maximum="255" minimum="0" id="20" textB="HlAlrm-4 Сгорел предохранитель 4"/>
+ <message maximum="255" minimum="0" id="97" textB="Недоступен ДГУ"/>
+ <message maximum="255" minimum="0" id="30" textB="HlAlrm-14"/>
+ <message maximum="255" minimum="0" id="109" textB="Тревога в разделе Всё"/>
+ <message maximum="255" minimum="0" id="26" textB="HlAlrm-10"/>
+ <message maximum="255" minimum="0" id="68" textB="Протечка! Датчик N"/>
+ <message maximum="255" minimum="0" id="197" textB="Электроавария N 17"/>
+ <message maximum="255" minimum="0" id="227" textB="Открыт ЗАМОК N 7"/>
+ <message maximum="255" minimum="0" id="6" textB="ExAlrm-6 Неисправность дополнительных датчиков безопасности"/>
+ <message maximum="255" minimum="0" id="98" textB="Тревога Датчика Уровня Топлива N"/>
+ <message maximum="255" minimum="0" id="84" textB="Неисправность ИБП"/>
+ <message maximum="255" minimum="0" id="228" textB="Открыт ЗАМОК N 8"/>
+ <message maximum="255" minimum="0" id="127" textB="------ "/>
+ <message maximum="255" minimum="0" id="142" textB="------ "/>
+ <message maximum="255" minimum="0" id="111" textB="Тревога в разделе 2"/>
+ <message maximum="255" minimum="0" id="146" textB="------ "/>
+ <message maximum="255" minimum="0" id="163" textB="Протечка на датчике N 15"/>
+ <message maximum="255" minimum="0" id="29" textB="HlAlrm-13"/>
+ <message maximum="255" minimum="0" id="171" textB="Протечка на датчике N 23"/>
+ <message maximum="255" minimum="0" id="182" textB="Электроавария N 2 "/>
+ <message maximum="255" minimum="0" id="41" textB="Перегревается помещение N"/>
+ <message maximum="255" minimum="0" id="133" textB="------ "/>
+ <message maximum="255" minimum="0" id="121" textB="------ "/>
+ <message maximum="255" minimum="0" id="167" textB="Протечка на датчике N 19"/>
+ <message maximum="255" minimum="0" id="116" textB="Тревога в общем разделе"/>
+ <message maximum="255" minimum="0" id="190" textB="Электроавария N 10"/>
+ <message maximum="255" minimum="0" id="166" textB="Протечка на датчике N 18"/>
+ <message maximum="255" minimum="0" id="135" textB="------ "/>
+ <message maximum="255" minimum="0" id="7" textB="ExAlrm-7 Неисправность котла"/>
+ <message maximum="255" minimum="0" id="161" textB="Протечка на датчике N 13"/>
+ <message maximum="255" minimum="0" id="90" textB="Неисправность импульсного реле N"/>
+ <message maximum="255" minimum="0" id="59" textB="--Нет ответа от ZigBee модуля. N"/>
+ <message maximum="255" minimum="0" id="12" textB="ExAlrm-12 Переполнение КНС"/>
+ <message maximum="255" minimum="0" id="82" textB="--------"/>
+ <message maximum="255" minimum="0" id="77" textB="Тревога Вентмашины N"/>
+ <message maximum="255" minimum="0" id="236" textB="Посёлок: Отклонения Т Воздуха в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="153" textB="Протечка на датчике N 5 "/>
+ <message maximum="255" minimum="0" id="250" textB="Посёлок: --- в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="221" textB="Открыт ЗАМОК N 1"/>
+ <message maximum="255" minimum="0" id="216" textB="Нажат ЗВОНОК N 4"/>
+ <message maximum="255" minimum="0" id="94" textB="--------"/>
+ <message maximum="255" minimum="0" id="162" textB="Протечка на датчике N 14"/>
+ <message maximum="255" minimum="0" id="152" textB="Протечка на датчике N 4 "/>
+ <message maximum="255" minimum="0" id="188" textB="Электроавария N 8 "/>
+ <message maximum="255" minimum="0" id="212" textB="Электроавария N 32"/>
+ <message maximum="255" minimum="0" id="233" textB="Посёлок: ExtAlarm-3 в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="226" textB="Открыт ЗАМОК N 6"/>
+ <message maximum="255" minimum="0" id="246" textB="Посёлок: Неисправен Датчик Т в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="157" textB="Протечка на датчике N 9 "/>
+ <message maximum="255" minimum="0" id="129" textB="------ "/>
+ <message maximum="255" minimum="0" id="245" textB="Посёлок: Подключен ГЕНЕРАТОР в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="110" textB="Тревога в разделе 1"/>
+ <message maximum="255" minimum="0" id="229" textB="Неисправность ПЛК, памяти %"/>
+ <message maximum="255" minimum="0" id="61" textB="Аварийная T-возд. )5-45( в пом.N"/>
+ <message maximum="255" minimum="0" id="95" textB="--------"/>
+ <message maximum="255" minimum="0" id="247" textB="Посёлок: Аварийная Т воздуха в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="1" textB="ExAlrm-1 Тревога пожарной сигнализации"/>
+ <message maximum="255" minimum="0" id="204" textB="Электроавария N 24"/>
+ <message maximum="255" minimum="0" id="154" textB="Протечка на датчике N 6 "/>
+ <message maximum="255" minimum="0" id="31" textB="HlAlrm-15"/>
+ <message maximum="255" minimum="0" id="50" textB="Нажата тревожная кнопка номер:"/>
+ <message maximum="255" minimum="0" id="56" textB="Подключен ввод ГОРОД:"/>
+ <message maximum="255" minimum="0" id="231" textB="Посёлок: ExtAlarm-1 в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="19" textB="HlAlrm-3 Сгорел предохранитель 3"/>
+ <message maximum="255" minimum="0" id="195" textB="Электроавария N 15"/>
+ <message maximum="255" minimum="0" id="49" textB="--------"/>
+ <message maximum="255" minimum="0" id="239" textB="Посёлок: Взята охрана в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="104" textB="Взят на охрану раздел 3"/>
+ <message maximum="255" minimum="0" id="186" textB="Электроавария N 6 "/>
+ <message maximum="255" minimum="0" id="173" textB="Протечка на датчике N 25"/>
+ <message maximum="255" minimum="0" id="28" textB="HlAlrm-12"/>
+ <message maximum="255" minimum="0" id="189" textB="Электроавария N 9 "/>
+ <message maximum="255" minimum="0" id="253" textB="Посёлок: --- в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="169" textB="Протечка на датчике N 21"/>
+ <message maximum="255" minimum="0" id="198" textB="Электроавария N 18"/>
+ <message maximum="255" minimum="0" id="218" textB="Нажат ЗВОНОК N 6"/>
+ <message maximum="255" minimum="0" id="151" textB="Протечка на датчике N 3 "/>
+ <message maximum="255" minimum="0" id="249" textB="Посёлок: Тревога вентмашины в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="3" textB="ExAlrm-3 Тревога дополнительной охранной сигнализации"/>
+ <message maximum="255" minimum="0" id="88" textB="Недоступен Конвектор N"/>
+ <message maximum="255" minimum="0" id="214" textB="Нажат ЗВОНОК N 2"/>
+ <message maximum="255" minimum="0" id="10" textB="ExAlrm-10 Неисправность датчика ГАЗА"/>
+ <message maximum="255" minimum="0" id="114" textB="Тревога в разделе 5"/>
+ <message maximum="255" minimum="0" id="45" textB="Электроаварий всего:"/>
+ <message maximum="255" minimum="0" id="117" textB="------ "/>
+ <message maximum="255" minimum="0" id="124" textB="------ "/>
+ <message maximum="255" minimum="0" id="181" textB="Электроавария N 1 "/>
+ <message maximum="255" minimum="0" id="2" textB="ExAlrm-2 Неисправность пожарной сигнализации"/>
+ <message maximum="255" minimum="0" id="172" textB="Протечка на датчике N 24"/>
+ <message maximum="255" minimum="0" id="254" textB="Посёлок: --- в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="126" textB="------ "/>
+ <message maximum="255" minimum="0" id="64" textB="Аварийых Т-пола всего:"/>
+ <message maximum="255" minimum="0" id="232" textB="Посёлок: ExtAlarm-2 в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="60" textB="--Потеряно ZigBee модулей:"/>
+ <message maximum="255" minimum="0" id="79" textB="Недоступна Вентмашина N"/>
+ <message maximum="255" minimum="0" id="150" textB="Протечка на датчике N 2 "/>
+ <message maximum="255" minimum="0" id="33" textB="Неправильно синхронизированы часы N"/>
+ <message maximum="255" minimum="0" id="96" textB="Неисправность ДГУ"/>
+ <message maximum="255" minimum="0" id="196" textB="Электроавария N 16"/>
+ <message maximum="255" minimum="0" id="42" textB="Не прогревается ПОЛ в пом. N"/>
+ <message maximum="255" minimum="0" id="252" textB="Посёлок: --- в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="35" textB="Неверное время на часах ПЛК N"/>
+ <message maximum="255" minimum="0" id="192" textB="Электроавария N 12"/>
+ <message maximum="255" minimum="0" id="145" textB="------ "/>
+ <message maximum="255" minimum="0" id="208" textB="Электроавария N 28"/>
+ <message maximum="255" minimum="0" id="134" textB="------ "/>
+ <message maximum="255" minimum="0" id="237" textB="Посёлок: Отклонения Т Пола в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="180" textB="Протечка на датчике N 32"/>
+ <message maximum="255" minimum="0" id="213" textB="Нажат ЗВОНОК N 1"/>
+ <message maximum="255" minimum="0" id="23" textB="HlAlrm-7 Неисправен Блок Питания 3"/>
+ <message maximum="255" minimum="0" id="52" textB="Электропотребление в норме, всего кВт:"/>
+ <message maximum="255" minimum="0" id="11" textB="ExAlrm-11 Закрыт клапан ГАЗА"/>
+ <message maximum="255" minimum="0" id="89" textB="Недоступен Контроллер расширения"/>
+ <message maximum="255" minimum="0" id="170" textB="Протечка на датчике N 22"/>
+ <message maximum="2550" minimum="0" id="37" textB="Баланс GSM менее 150р."/>
+ <message maximum="255" minimum="0" id="225" textB="Открыт ЗАМОК N 5"/>
+ <message maximum="255" minimum="0" id="230" textB="Посёлок: Потеря связи в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="222" textB="Открыт ЗАМОК N 2"/>
+ <message maximum="255" minimum="0" id="91" textB="Тревога С2000 радел (1-12) N"/>
+ <message maximum="255" minimum="0" id="238" textB="Посёлок: Электроавария в ДОМЕ N"/>
+ <message maximum="255" minimum="0" id="16" textB="ExAlrm-16"/>
+ <message maximum="255" minimum="0" id="25" textB="HlAlrm-9"/>
+ <message maximum="255" minimum="0" id="53" textB="Нажат ЗВОНОК N:"/>
+ <message maximum="51" minimum="0" id="65" textB="Аварийная Т воздуха средняя )5-40(, С="/>
+ <message maximum="255" minimum="0" id="210" textB="Электроавария N 30"/>
+ <message maximum="255" minimum="0" id="48" textB="Тревога на датчике охраны N:"/>
+ <message maximum="255" minimum="0" id="141" textB="------ "/>
+ <message maximum="255" minimum="0" id="164" textB="Протечка на датчике N 16"/>
+ <message maximum="255" minimum="0" id="178" textB="Протечка на датчике N 30"/>
+ <message maximum="255" minimum="0" id="17" textB="HlAlrm-1 Сгорел предохранитель 1"/>
+ <offset value="4000"/>
+ <parameter maximum="255" minimum="0" id="7" textB="Volt-T"/>
+ <parameter maximum="255" minimum="0" id="9" textB="F-Switch"/>
+ <parameter maximum="255" minimum="0" id="6" textB="Cur-T"/>
+ <parameter maximum="255" minimum="0" id="10" textB="L-Switch"/>
+ <parameter maximum="255" minimum="0" id="14" textB="Av-Set"/>
+ <parameter maximum="255" minimum="0" id="3" textB="Volt-R"/>
+ <parameter maximum="255" minimum="0" id="13" textB="Av-Air"/>
+ <parameter maximum="255" minimum="0" id="1" textB="Pwr x2.5"/>
+ <parameter maximum="255" minimum="0" id="11" textB="Pirs-I-M"/>
+ <parameter maximum="255" minimum="0" id="4" textB="Cur-S"/>
+ <parameter maximum="255" minimum="0" id="12" textB="AirOn"/>
+ <parameter maximum="255" minimum="0" id="15" textB="PolOn"/>
+ <parameter maximum="255" minimum="0" id="2" textB="Cur-R"/>
+ <parameter maximum="255" minimum="0" id="8" textB="LigtsOn"/>
+ <parameter maximum="255" minimum="0" id="5" textB="Volt-S"/>
+ <parameter maximum="255" minimum="0" id="16" textB="VitSuOn"/>
+ <passkey value="2811"/>
+ <posx value="455"/>
+ <posy value="71"/>
+ <readfunctionmb value="3"/>
+ <!-- time in minutes for PERIODIC RECONNECT : reconnecttime value="10"-->
+ <reconnecttime value="1"/>
+ <request value="12345"/>
+ <savestate value="false"/>
+ <scenesbackground value=""/>
+ <secure value="3" textB="Введите пароль для снятия с охраны"/>
+ <secure value="22" textB="Раздел 2"/>
+ <secure value="23" textB="Раздел 3"/>
+ <secure value="21" textB="Раздел 1"/>
+ <secure value="16" textB="Неверный пароль!"/>
+ <secure value="14" textB="Быстрые зоны готовы"/>
+ <secure value="6" textB="Взяты на охрану не все зоны"/>
+ <secure value="17" textB="Обратный отсчёт"/>
+ <secure value="25" textB="Раздел 5"/>
+ <secure value="2" textB="Взяты на охрану все зоны"/>
+ <secure value="8" textB="Введите старый пароль"/>
+ <secure value="28" textB="Раздел не выбран"/>
+ <secure value="24" textB="Раздел 4"/>
+ <secure value="10" textB="Повторите новый пароль"/>
+ <secure value="4" textB="Постановка на охрану"/>
+ <secure value="27" textB="Раздел Общий"/>
+ <secure value="13" textB="Быстрые зоны отсутствуют"/>
+ <secure value="0" textB="Неисправность"/>
+ <secure value="7" textB="Нет зон охраны"/>
+ <secure value="11" textB="Пароль изменён"/>
+ <secure value="26" textB="Раздел 6"/>
+ <secure value="1" textB="Снято с охраны"/>
+ <secure value="12" textB="Смена пароля"/>
+ <secure value="9" textB="Введите новый пароль"/>
+ <secure value="20" textB="Раздел Всё"/>
+ <secure value="5" textB="Тревога!"/>
+ <secure value="15" textB="Введите пароль"/>
+ <show_settings value="true"/>
+ <shwingen value="true"/>
+ <shwmedia value="true"/>
+ <sound fileName="snd/ohrana/alarm_b.wav" value="1026"/>
+ <sound fileName="snd/msg/hlth_alarm_4.wav" value="20"/>
+ <sound fileName="snd/msg/hlth_alarm_12.wav" value="28"/>
+ <sound fileName="snd/msg/hlth_alarm_1.wav" value="17"/>
+ <sound fileName="snd/ohrana/sequre_countdown.wav" value="1017"/>
+ <sound fileName="snd/ohrana/pass_enter_new.wav" value="1009"/>
+ <sound fileName="snd/msg/ext_alarm_7.wav" value="7"/>
+ <sound fileName="snd/msg/ext_alarm_6.wav" value="6"/>
+ <sound fileName="snd/msg/zvnok_v_dver.wav" value="53"/>
+ <sound fileName="snd/ohrana/alarm_a.wav" value="1022"/>
+ <sound fileName="snd/ohrana/sequre_fast_on.wav" value="1014"/>
+ <sound fileName="snd/msg/ext_alarm_11.wav" value="11"/>
+ <sound fileName="snd/msg/ext_alarm_3.wav" value="3"/>
+ <sound fileName="snd/msg/avr_on_city.wav" value="56"/>
+ <sound fileName="snd/ohrana/alarm.wav" value="1005"/>
+ <sound fileName="snd/msg/polnostu_net_electro.wav" value="72"/>
+ <sound fileName="snd/ohrana/pass_changed.wav" value="1011"/>
+ <sound fileName="snd/msg/ext_alarm_9.wav" value="9"/>
+ <sound fileName="snd/msg/ext_alarm_2.wav" value="2"/>
+ <sound fileName="snd/ohrana/sequre_arm.wav" value="1004"/>
+ <sound fileName="snd/ringout.wav" value="0"/>
+ <sound fileName="snd/msg/t_pola.wav" value="63"/>
+ <sound fileName="snd/ohrana/pass_incorrect.wav" value="1016"/>
+ <sound fileName="snd/ohrana/pass_enter.wav" value="1015"/>
+ <sound fileName="snd/ohrana/alarm_a.wav" value="1021"/>
+ <sound fileName="snd/ohrana/pass_enter_disarm.wav" value="1003"/>
+ <sound fileName="snd/ohrana/sequre_on_all.wav" value="1002"/>
+ <sound fileName="snd/msg/ext_alarm_12.wav" value="12"/>
+ <sound fileName="snd/msg/zamok.wav" value="54"/>
+ <sound fileName="snd/msg/ext_alarm_5.wav" value="5"/>
+ <sound fileName="snd/ohrana/alarm.wav" value="48"/>
+ <sound fileName="snd/msg/hlth_alarm_6.wav" value="22"/>
+ <sound fileName="snd/msg/avr_on_generator.wav" value="57"/>
+ <sound fileName="snd/ohrana/alarm_u.wav" value="1027"/>
+ <sound fileName="snd/msg/hlth_alarm_16.wav" value="32"/>
+ <sound fileName="snd/msg/electroavaria.wav" value="45"/>
+ <sound fileName="snd/msg/sistema_vkluchena.wav" value="36"/>
+ <sound fileName="snd/msg/ext_alarm_8.wav" value="8"/>
+ <sound fileName="snd/msg/hlth_alarm_2.wav" value="18"/>
+ <sound fileName="snd/ohrana/alarm_u.wav" value="1020"/>
+ <sound fileName="snd/msg/generator_ne_zapuskaetsa.wav" value="75"/>
+ <sound fileName="snd/msg/ext_alarm_14.wav" value="14"/>
+ <sound fileName="snd/ohrana/alarm_u.wav" value="1028"/>
+ <sound fileName="snd/ohrana/alarm_b.wav" value="1025"/>
+ <sound fileName="snd/ohrana/alarm_a.wav" value="1023"/>
+ <sound fileName="snd/ohrana/pass_changing.wav" value="1012"/>
+ <sound fileName="snd/msg/trevozhnaja_knopka.wav" value="50"/>
+ <sound fileName="snd/msg/electropotreblenie_vnorme.wav" value="52"/>
+ <sound fileName="snd/ohrana/pass_enter_old.wav" value="1008"/>
+ <sound fileName="snd/msg/hlth_alarm_5.wav" value="21"/>
+ <sound fileName="snd/msg/ext_alarm_10.wav" value="10"/>
+ <sound fileName="snd/msg/hlth_alarm_3.wav" value="19"/>
+ <sound fileName="snd/msg/ext_alarm_13.wav" value="13"/>
+ <sound fileName="snd/msg/ext_alarm_4.wav" value="4"/>
+ <sound fileName="snd/msg/critical_electro.wav" value="55"/>
+ <sound fileName="snd/msg/hlth_alarm_15.wav" value="31"/>
+ <sound fileName="snd/msg/ext_alarm_16.wav" value="16"/>
+ <sound fileName="snd/ohrana/sequre_on_not_all.wav" value="1006"/>
+ <sound fileName="snd/msg/hlth_alarm_11.wav" value="27"/>
+ <sound fileName="snd/ohrana/alarm_b.wav" value="1024"/>
+ <sound fileName="snd/msg/hlth_alarm_9.wav" value="25"/>
+ <sound fileName="snd/msg/polnostu_est_electro.wav" value="73"/>
+ <sound fileName="snd/ohrana/sequre_off.wav" value="1001"/>
+ <sound fileName="snd/ohrana/sequre_fast_no.wav" value="1013"/>
+ <sound fileName="snd/msg/ext_alarm_15.wav" value="15"/>
+ <sound fileName="snd/msg/hlth_alarm_8.wav" value="24"/>
+ <sound fileName="snd/ohrana/secure_no_zones.wav" value="1007"/>
+ <sound fileName="snd/msg/ext_alarm_1.wav" value="1"/>
+ <sound fileName="snd/msg/hlth_alarm_14.wav" value="30"/>
+ <sound fileName="snd/msg/license_stopped.wav" value="58"/>
+ <sound fileName="snd/msg/hlth_alarm_7.wav" value="23"/>
+ <sound fileName="snd/msg/protechka.wav" value="68"/>
+ <sound fileName="snd/msg/hlth_alarm_10.wav" value="26"/>
+ <sound fileName="snd/msg/hlth_alarm_13.wav" value="29"/>
+ <sound fileName="snd/msg/t_ulici.wav" value="67"/>
+ <sound fileName="snd/msg/electroperegruzka.wav" value="51"/>
+ <sound fileName="snd/msg/t_vosduha.wav" value="61"/>
+ <sound fileName="snd/ohrana/pass_repeat_new.wav" value="1010"/>
+ <timeautoclose value="0"/>
+ <timeout value="1000"/>
+ <width value="1024"/>
+ <wndview value="maximized"/>
+ <writealarm value="true"/>
+ <writearchive value="true"/>
+ <zoomheight value="768"/>
+ <zoomwidth value="1024"/>
+</config>
