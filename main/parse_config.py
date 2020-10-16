@@ -4,22 +4,6 @@ import tkinter as tk
 xml_file = open("config.xml", "rb")
 dict_parsed = xmltodict.parse(xml_file)
 
-window = tk.Tk()
-greeting = tk.Label(text="Питон рулит!")
-greeting.pack()
-
-button = tk.Button(
-    text="Нажми на меня!",
-    width=25,
-    height=5,
-    bg="gray",
-    fg="yellow",
-)
-button.pack()
-
-text_box = tk.Text()
-text_box.pack()
-
 # for main in dict_parsed:
 #     #print(dict_parsed[main])
 #     for keys in dict_parsed[main]:
@@ -50,5 +34,30 @@ print(f"Wndview: {wnd_view}")
 print(f"Zoomheight: {zoom_height}")
 print(f"Zoomwidth: {zoom_width}")
 
+window = tk.Tk()
+
+frame_a = tk.Frame(master=window, borderwidth=5, relief=tk.SUNKEN)
+frame_a.pack()
+
+greeting = tk.Label(text="config.xml", master=frame_a)
+greeting.pack()
+
+entry_a = tk.Label(master=frame_a, width=40, fg="black", bg="white", text=f"IP_1: {ip_address_1}")
+entry_a.pack()
+
+window = tk.Tk()
+
+frame1 = tk.Frame(master=window, height=150, width=50, bg="red")
+frame1.pack(fill=tk.BOTH, side=tk.LEFT, expand=True)
+
+frame2 = tk.Frame(master=window, height=50, width=100, bg="yellow")
+frame2.pack(fill=tk.BOTH, side=tk.LEFT, expand=True)
+
+
+frame3 = tk.Frame(master=window, height=100, width=150, bg="blue")
+frame3.pack(fill=tk.BOTH, side=tk.LEFT, expand=True)
+
+
 xml_file.close()
+
 window.mainloop()
